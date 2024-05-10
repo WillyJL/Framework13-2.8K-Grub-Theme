@@ -1,0 +1,46 @@
+# Main options
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Ubuntu Mono Regular 24"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "95%"
+terminal-height: "95%"
+terminal-border: "0"
+
+# Boot menu
++ boot_menu {
+  left = 500
+  top = 800
+  width = 1256
+  height = 600
+
+  item_font = "Ubuntu Regular 20"
+  item_color = "#cccccc"
+  selected_item_color = "#ffffff"
+
+  icon_width = 36
+  icon_height = 36
+  item_icon_space = 20
+  item_height = 40
+  item_padding = 2
+  item_spacing = 10
+
+  selected_item_pixmap_style = "select_*.png"
+}
+
+# add a progress bar countdown
++ progress_bar {
+  left = 678
+  top = 650
+  width = 900
+  height = 5
+      
+  id = "__timeout__"
+
+  border_color = "#cccccc"
+  bg_color = "#282828"
+  fg_color = "#cccccc"
+}
