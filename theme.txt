@@ -33,9 +33,9 @@ terminal-border: "0"
 
 # add a progress bar countdown
 + progress_bar {
-  left = 866
-  top = 830
-  width = 1148
+  left = 869
+  top = 880
+  width = 1150
   height = 6
       
   id = "__timeout__"
