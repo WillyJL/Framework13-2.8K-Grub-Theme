@@ -12,31 +12,31 @@ terminal-border: "0"
 
 # Boot menu
 + boot_menu {
-  left = 500
-  top = 800
-  width = 1256
-  height = 600
+  left = 638
+  top = 1022
+  width = 1604
+  height = 764
 
-  item_font = "Ubuntu Regular 20"
+  item_font = "Ubuntu Regular 26"
   item_color = "#cccccc"
   selected_item_color = "#ffffff"
 
-  icon_width = 36
-  icon_height = 36
-  item_icon_space = 20
-  item_height = 40
-  item_padding = 2
-  item_spacing = 10
+  icon_width = 46
+  icon_height = 46
+  item_icon_space = 26
+  item_height = 51
+  item_padding = 3
+  item_spacing = 13
 
   selected_item_pixmap_style = "select_*.png"
 }
 
 # add a progress bar countdown
 + progress_bar {
-  left = 678
-  top = 650
-  width = 900
-  height = 5
+  left = 866
+  top = 830
+  width = 1148
+  height = 6
       
   id = "__timeout__"
 
